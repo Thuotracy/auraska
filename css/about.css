@@ -1,0 +1,182 @@
+/* navbar styling */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 80px;
+}
+
+/* img{
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+    padding-top: 1%;
+} */
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -2%;
+    margin-right: -55%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;   
+    /* margin-right: 5%; */
+    margin: 0 10px; 
+    display: inline-block; 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    /* margin-right: -5%; */
+}
+
+.menu li a:hover{
+    color: orange;
+    text-decoration: underline;
+    /* margin-right: -5%; */
+}
+
+
+/* page styling */
+.container{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%vh;
+    width: 100%vw;
+}
+
+.about img{
+    margin-left: 0;
+    width: 100%;
+}
+
+.about_us{
+    padding-left: 9%;
+    padding-right: 7%;
+}
+
+.about_us{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 16px;
+
+}
+
+.about_us p{
+    font-size: 20px;
+}
+
+.team h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.team h2{
+    margin-left: 9%;
+    font-size: 28px;
+}
+
+.team_members h3{
+    font-size: 20px;
+}
+
+.team_members p{
+    padding-top: 2%;
+}
+
+.team_members{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 500px;
+    height: 210px;
+    padding: 3%;
+}
+
+table{
+    border-spacing: 30px;
+    margin-left: 7%;
+    margin-top: -5%;
+}
+
+.feedback{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 500px;
+    height: 160px;
+    padding: 3%;
+}
+
+.feedback p{
+    margin-top: 2%;
+}
+
+/* footer styling */
+.touch{
+    background: linear-gradient(to right, orange, gray);
+    width: 85%;
+    height: 150px;
+    margin-left: 8.5%;
+    border-radius: 10px;
+}
+
+.touch p{
+    color: white;
+    margin-left: 5%;
+    padding-top: 3%;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.touch button{
+    float: right;
+    margin-top: -4%;
+    margin-right: 2%;
+    padding: 1%;
+    font-size: 16px;
+}
+
+.info h2{
+    color: orange;
+    position: absolute;
+    left: 25%;
+    bottom: -200%;
+}
+
+.info p{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    left: 34%;
+    bottom: -202%;
+}
+
+#number{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    left: 34%;
+    bottom: -205%;
+}
+
+footer{
+    margin-bottom: 2%;
+}
+
+/* .social{
+    margin-left: 100%;
+} */

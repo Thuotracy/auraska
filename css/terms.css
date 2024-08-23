@@ -1,0 +1,95 @@
+/* navbar styling */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 80px;
+}
+
+.image{
+    width: 100%;
+    height: 500px;
+    /* margin-left: 10%; */
+    padding-top: 1%;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -2%;
+    margin-right: -55%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;   
+    /* margin-right: 5%; */
+    margin: 0 10px; 
+    display: inline-block; 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    /* margin-right: -5%; */
+}
+
+.menu li a:hover{
+    color: orange;
+    text-decoration: underline;
+    /* margin-right: -5%; */
+}
+
+/* body styling */
+.container{
+    background: linear-gradient(to right, grey, orange);
+    margin: 0 5% 5% 5%;
+    height: 100%vh;
+}
+
+h1{
+    color: white;
+    margin-left: 10%;
+    font-weight: 600;
+    padding-top: 2%;
+}
+
+.heading{
+    color: white;
+    margin-left: 10%;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.info p{
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 18px;
+    color: white;
+}
+
+.info li{
+    margin-left: 14%;
+    margin-right: 12%;
+    font-size: 18px;
+    color: white;
+}
+
+.end{
+    color: white;
+    margin-left: 10%;
+    font-size: 18px;
+    margin: 5%;
+}
+
+

@@ -1,0 +1,256 @@
+/* navbar styling */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+nav{
+    height: 80px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    margin-left: 10%;
+    padding-top: 1%;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -2%;
+    margin-right: -55%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;   
+    /* margin-right: 5%; */
+    margin: 0 10px; 
+    display: inline-block; 
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    /* margin-right: -5%; */
+}
+
+.menu li a:hover{
+    color: orange;
+    text-decoration: underline;
+    /* margin-right: -5%; */
+}
+
+/* body styling */
+
+.container{
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    border: 2px solid orange;
+    max-width: 1400px;
+    height: 500px;
+}
+
+.heading{
+    font-size: 32px;
+    color: orange;
+    font-weight: 600;
+    margin-left: 2%;
+    padding-top: 7%;
+}
+
+#details{
+    font-size: 18px;
+    margin-left: 2%;
+}
+
+.btn{
+    height: 60px;
+    width: 150px;
+    font-size: 16px;
+    padding: 3px;
+    background: linear-gradient(to right, orange, gray);
+    color: white;
+    margin-left: 2%;
+    margin-bottom: 4%;
+}
+
+.mission_image{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.mission_image img{
+    height: 492px;
+    width: 700px;
+    top: 0;
+}
+
+
+/* odoo solutions styling */
+.odoo_solutions{
+    margin-left: 10%;
+}
+
+.comprehensive{
+    border: 2px solid brown;
+    border-radius: 10px;
+    width: 85%;
+    height: 250px;
+    padding: 2%;
+    position: relative;
+}
+
+.odoo img{
+    position: absolute;
+    right: 5%;
+    top: 1%;
+    height: 230px;
+    width: auto;
+}
+
+.odoo_image{
+    width: 200px;
+    height: 200px;
+}
+
+/* odoo apps styling */
+.odoo_apps h1{
+    margin-left: 10%;
+    margin-bottom: -1%;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.apps{
+    width: 400px;
+    position: relative;
+}
+
+table{
+    border-spacing: 100px 40px;
+    margin-left: 1%;
+    margin-top: -5%;
+}
+
+.desc{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+.news_btn{
+    height: 40px;
+    width: 180px;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 45%;
+    /* margin-top: -2%; */
+}
+
+.news_btn:hover{
+    background: linear-gradient(to right, orange, gray);  
+    border: none; 
+}
+
+/* key features styling */
+.features{
+    margin-left: 9%;
+}
+
+.features p{
+    margin-left: 7%;
+}
+
+.industries{
+    padding-top: 5%;
+    margin-left: -3%;
+}
+
+.industries_serve{
+    border: 1px solid brown;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding: 3%;
+    text-align: center;
+}
+
+.industries_serve:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, orange, gray);
+    color: white;
+}
+
+.industries table{
+    border-spacing: 70px 30px;
+    /* margin-left: 7%; */
+}
+
+/* footer styling */
+
+.touch{
+    background: linear-gradient(to right, orange, gray);
+    width: 85%;
+    height: 150px;
+    margin-left: 8.5%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.touch p{
+    color: white;
+    margin-left: 5%;
+    padding-top: 3%;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.touch button{
+    float: right;
+    margin-top: -4%;
+    margin-right: 2%;
+    padding: 1%;
+    font-size: 16px;
+}
+
+.info h2{
+    color: orange;
+    position: absolute;
+    left: 35%;
+    bottom: -294%;
+}
+
+.info p{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    left: 35%;
+    bottom: -297%;
+}
+
+#number{
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    left: 35%;
+    bottom: -300%;
+}
+
+footer{
+    margin-bottom: 2%;
+}
