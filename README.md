@@ -1,14 +1,12 @@
-## School-website
+## AURASKA
 
 ## Description
 
-This is a school website design
+This is a website for a company that offers ERP Solutions that unify your business operations, from finance to customer management. 
 
 ## Technologies Used
 * HTML
 * CSS
-* SCSS
-* JavaScript
 
 ## Live link
 https://thuotracy.github.io/school-website/home.
