@@ -9,7 +9,7 @@ This is a website for a company that offers ERP Solutions that unify your busine
 * CSS
 
 ## Live link
-
+https://thuotracy.github.io/auraska/
 
 ## Support and contact details
 
