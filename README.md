@@ -1,5 +1,4 @@
 ## AURASKA
-
 ## Description
 
 This is a website for a company that offers ERP Solutions that unify your business operations, from finance to customer management. 
